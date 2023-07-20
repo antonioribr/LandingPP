@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    box-sizing: border-box;
+}
+/* Colocando menu na horizontal com css */
+#menu-h{
+    background-color: #765376;
+}
+
+#menu-h ul{
+    max-width: 80%;
+    padding: 0;
+}
+#menu-h ul li{
+    display: line;
+}
+#menu-h ul li a{
+    color: rgb(184, 137, 228);
+    padding: 15px;
+    text-decoration: none;
+    display: inline-block;
+    transition: background .8s;
+}
+#menu-h ul li a:hover {
+    background-color: cyan;
+}
